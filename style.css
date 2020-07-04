@@ -27,3 +27,67 @@
 
   width: 5px;
 }
+
+.branch:nth-child(even) {
+  transform: rotate(60deg);
+}
+
+.branch:nth-child(odd) {
+  transform: rotate(-60deg);
+}
+
+.branch {
+  position: absolute;
+
+  width: 5px;
+
+  transform-origin: bottom center;
+}
+
+.branch:nth-child(1) {
+  top: 180px;
+
+  height: 180px;
+}
+
+.branch:nth-child(2) {
+  top: 160px;
+
+  height: 150px;
+}
+
+.branch:nth-child(3) {
+  top: 120px;
+
+  height: 150px;
+}
+
+.branch:nth-child(4) {
+  top: 100px;
+
+  height: 120px;
+}
+
+.branch:nth-child(5) {
+  top: 60px;
+
+  height: 120px;
+}
+
+.branch:nth-child(6) {
+  top: 55px;
+
+  height: 80px;
+}
+
+.branch:nth-child(7) {
+  top: 10;
+
+  height: 80px;
+}
+
+.branch:nth-child(8) {
+  top: 5px;
+
+  height: 40px;
+}
