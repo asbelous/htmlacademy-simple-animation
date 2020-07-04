@@ -91,3 +91,21 @@
 
   height: 40px;
 }
+
+.leaf {
+  position: absolute;
+  
+  width: 15px;
+  height: 15px;
+  
+  border-radius: 75% 0 75% 0;
+  background: linear-gradient(to right, #77ed9e, #53ad71);
+}
+
+.leaf:nth-child(1) {
+  top: 5px;
+}
+
+.leaf:nth-child(2) {
+  top: 20px;
+}
