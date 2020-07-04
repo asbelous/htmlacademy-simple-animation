@@ -1,9 +1,29 @@
 .canvas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 600px;
-  
-    background-color: #d1cee0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+
+  background-color: #d1cee0;
+}
+
+.trunk,
+.branch {
+  border-radius: 25px;
+  background: linear-gradient(to right, #7f3333, #4d2020);
+}
+
+.trunk {
+  position: relative;
+
+  width: 10px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.branch {
+  position: absolute;
+
+  width: 5px;
+}
