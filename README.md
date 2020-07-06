@@ -4,6 +4,8 @@
 
 Будем делать [такое дерево](https://codepen.io/sasha-sm/pen/VwLMQdK):
 
+<img src="https://assets.htmlacademy.ru/content/blog/895/1@1x.gif">
+
 ## Создание дерева
 
 ### 1. Разметка
